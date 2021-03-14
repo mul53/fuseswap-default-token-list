@@ -1,9 +1,9 @@
 {
   "name": "FuseSwap Token List",
-  "timestamp": "2021-02-11T11:04:16.639Z",
+  "timestamp": "2021-03-14T13:12:36.849Z",
   "version": {
     "major": 1,
-    "minor": 2,
+    "minor": 3,
     "patch": 0
   },
   "tags": {},
@@ -39,6 +39,15 @@
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdd974D5C2e2928deA5F71b9825b8b646686BD200/logo.png"
     },
     {
+      "name": "Test Two on Fuse",
+      "address": "0xb681dF9480834653eA7C3e4519d8795aD26FAcFa",
+      "symbol": "T2",
+      "decimals": 18,
+      "chainId": 122,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdd974D5C2e2928deA5F71b9825b8b646686BD200/logo.png",
+      "isMultiBridge": true
+    },
+    {
       "name": "USD Coin on Fuse",
       "address": "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5",
       "symbol": "USDC",
@@ -52,7 +61,8 @@
       "symbol": "USDT",
       "decimals": 6,
       "chainId": 122,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+      "isDeprecated": true
     },
     {
       "name": "Wrapped BTC on Fuse",
